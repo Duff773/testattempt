@@ -1,0 +1,260 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 4000px;
+	position:relative;
+	overflow: hidden;
+}
+
+.logobox {
+	width:23%;
+	padding-top: 10.5%;
+	z-index:99;
+	position: absolute;
+	margin:0;
+	background-image: url("http://localhost/testattempt/images/logo1.png");;
+	background-size: 100% 100%;
+}
+
+
+
+.logotriangle{
+	width: 0;
+	height: 0;
+	z-index: 98;
+	margin-left: 18%;
+	padding-bottom: 10.5%;
+	padding-left: 10.5%;
+	overflow: hidden;
+	position: absolute;
+}
+
+.logotriangle:after{
+	content:"";
+	display: block;
+	width:0;
+	height:0;
+	margin-left: -500px;
+	border-bottom: 1300px solid transparent;
+	border-left: 500px solid #ffffff;
+}
+
+.topbar {
+	width: 100%;
+	background-color: #333333;
+	background-size: cover;
+	text-align: right;
+	overflow: hidden;
+}
+
+.topbar li a{
+	font-size: 0.8vw;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	margin-right: 4.0%;
+	transition: width 2s;
+}
+
+.topbar li{
+	display: inline;
+}
+
+.topbar ul{
+	padding: 0;
+	margin:0;
+	list-style-type: none;
+}
+.toppic {
+	width: 100%;
+    padding-top: 50%;
+	background-image: url("http://localhost/testattempt/images/livingroom.png");
+	background-size: cover;
+	position: relative;
+}
+
+#navicss  {
+	width: 100%;
+	max-width: 100%;
+	padding-top: 1.0%;
+	padding-bottom: 1.0%; 
+	z-index: 50;
+	position: absolute;
+	margin: 0;
+	background-color: #333333;
+	opacity: 0.7;
+	overflow: hidden;
+	text-align: right;
+}
+
+#navicss li {
+	display:inline;
+}
+
+#navicss li a{
+	font-size: 1.5vw;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	margin-right: 7.25%;
+	transition: width 2s;
+}
+
+#navicss li a:hover{
+	color: #6d9ebc;
+}
+
+.blueoverlay {
+	width: 25%;
+	padding-top: 11%;
+	position: absolute;
+	top: 48%;
+	z-index: 99;
+	background: linear-gradient(to left, rgba(108, 156, 175, 0.75), rgba(108, 156, 175, 1.0));
+}
+
+.overlaytriangle{
+	width: 0;
+	height: 0;
+	z-index: 99;
+	margin-left: 25%;
+	padding-bottom: 11%;
+	padding-left: 11%;
+	overflow: hidden;
+	position: absolute;
+	top: 48%;
+	float:left;
+}
+
+.overlaytriangle:after {
+	content:"";
+	display: block;
+	width:0;
+	height:0;
+	margin-left: -500px;
+	border-bottom: 1300px solid transparent;
+	border-left: 500px solid rgba(108, 156, 175, 0.75);
+}
+
+.whiteoverlay {
+	width: 17%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	position: absolute;
+	top: 50.5%;
+	margin-left:22%;
+	z-index: 50;
+	background: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 1.0));
+	transform: skew(-20deg);
+	text-align:right;
+}
+
+.whiteoverlay ul{
+	list-style-type: none;
+}
+
+.whiteoverlay li{
+	transform: skew(20deg);
+}
+
+
+.whiteoverlay a{
+	font-size: 1.5vw;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6d9ebc;
+	text-decoration: none;
+	margin-right: 5.0%;
+	transition: width 2s;
+}
+
+.whiteoverlay a:hover{
+	font-size: 105%;
+}
+
+.fireplace1 {
+	width: 50%;
+	float: right;
+	padding-top: 30%;
+	background-image: url("http://localhost/testattempt/images/fireplace1.png");
+	background-size: cover;
+	position: relative;
+}
+
+.lookbook {
+	width: 50%;
+	float: left;
+	padding-top: 30%;
+	background-color:#6d9ebc;
+	background-size: cover;
+}
+
+.fireplace2 {
+	width: 50%;
+	float: left;
+	padding-top: 30%;
+	background-image: url("http://localhost/testattempt/images/fireplace2.png");
+	background-size: cover;
+}
+
+.blackcontainer {
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #333333;
+	opacity: 0.8;
+	background-size: cover;
+}
+
+.fireplace3 {
+	width: 50%;
+	float: left;
+	padding-top: 30%;
+	background-image: url("http://localhost/testattempt/images/fireplace3.png");
+	background-size: cover;
+	position: relative;
+}
+
+
+.fireplace4 {
+	width: 50%;
+	float: left;
+	padding-top: 30%;
+	background-image: url("http://localhost/testattempt/images/fireplace4.png");
+	background-size: cover;
+
+}
+
+.botpic {
+	width: 100%;
+    padding-top: 37.5%;
+	background-image: url("http://localhost/testattempt/images/smileylady.png");
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+.bluecontainer {
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #6d9ebc;
+	opacity: 0.8;
+	background-size: cover;
+}
+
+.bottom {
+	width: 100%;
+	padding-top: 17.5%;
+	background-color: #333333;
+	background-size: cover;
+	float: left;
+}
